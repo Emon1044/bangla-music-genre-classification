@@ -112,13 +112,6 @@ Exact versions and GPU requirements should be pinned in a project environment fi
 - Some post-hoc analyses require saved predictions. Where predictions are unavailable, the notebook may skip that test or use a previously generated figure.
 - This repository contains notebooks and lightweight report artifacts, **not the raw audio corpus, large spectrogram arrays, embeddings, or trained model weights**. Obtain the dataset from Kaggle and regenerate large artifacts by running the pipeline.
 
-## Suggested next steps
-
-- Add the exact public Kaggle dataset URL and a dataset citation.
-- Replace all hard-coded Kaggle paths and verify notebook dependencies.
-- Run the full pipeline from a clean Kaggle session, then refresh `reports/model_comparison.csv` and the figures.
-- Add a `requirements.txt` or `environment.yml` with tested, pinned versions.
-- Add a license for the code only after choosing terms you are comfortable with; confirm the dataset's audio redistribution rights separately.
 
 ## Citation
 
