@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Local secrets / environment
+.env
+.env.*
+!.env.example
+
+# Raw data and large generated artifacts (keep out of normal Git history)
+data/raw/
+data/interim/
+data/processed/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.aac
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.zip
+
+# Training logs and local output folders
+logs/
+outputs/
+models/
+checkpoints/
