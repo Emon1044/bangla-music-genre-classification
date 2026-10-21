@@ -55,31 +55,8 @@ The notebook's saved audit output reports **1,870 clean audio files**, approxima
 
 In the Kaggle dataset description, document what “created/curated” means: for example, whether the dataset was collected from multiple sources, cleaned, segmented, relabeled, or newly recorded. Include source attribution, the license/permission basis for the audio, known restrictions, and any transformation steps. Publishing a dataset publicly does not by itself establish redistribution rights for every audio file it contains.
 
-## Repository structure
 
-```text
-bangla-music-genre-classification/
-├── README.md
-├── .gitignore
-├── notebooks/
-│   ├── 01_dataset_audit_and_eda.ipynb
-│   ├── 02_audio_feature_extraction.ipynb
-│   ├── 03_classical_ml_baselines.ipynb
-│   ├── 04a_vgg_cnn_spectrogram_classifier.ipynb
-│   ├── 04b_resnet_cnn_spectrogram_classifier.ipynb
-│   ├── 04c_crnn_and_cnn_comparison.ipynb
-│   ├── 05a_yamnet_embedding_baseline.ipynb
-│   ├── 05b_yamnet_embedding_mlp.ipynb
-│   ├── 05c_efficientnet_b0_finetuning.ipynb
-│   └── 06_model_comparison_and_statistical_analysis.ipynb
-├── data/
-│   └── README.md
-└── reports/
-    ├── model_comparison.csv
-    └── figures/
-        ├── dataset_class_distribution.png
-        └── model_comparison_5fold_macro_f1.png
-```
+
 
 ## Notebook guide
 
