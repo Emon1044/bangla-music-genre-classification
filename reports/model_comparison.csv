@@ -1,0 +1,9 @@
+model,category,macro_f1_mean,macro_f1_std,ci95_low,ci95_high,weighted_f1,accuracy
+VGG-CNN2D,CNN (scratch),0.7702,0.0211,0.744,0.7964,,
+CRNN,CNN + recurrent layer (scratch),0.7273,0.0098,0.7152,0.7394,0.7424,0.7443
+ResNet-CNN2D,CNN (scratch),0.7086,0.0357,0.6643,0.7529,0.7296,0.7323
+XGBoost,Classical ML,0.6969,0.0136,0.6801,0.7137,0.7114,0.7124
+EfficientNetB0 (fine-tuned),Transfer learning (fine-tuned),0.6873,0.0143,0.6696,0.705,0.7089,0.7097
+"SVM (RBF, PCA)",Classical ML,0.6861,0.0132,0.6698,0.7024,0.7048,0.7061
+YAMNet + MLP (frozen),Transfer learning (frozen embeddings),0.6737,0.021,0.6477,0.6997,0.7077,0.711
+Random Forest,Classical ML,0.6382,0.0066,0.6299,0.6465,0.6598,0.6689
