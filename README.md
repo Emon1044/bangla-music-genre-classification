@@ -4,7 +4,7 @@
 
 This project explores an end-to-end workflow for classifying Bangla music into eight categories. It includes dataset auditing, audio-feature engineering, spectrogram-based deep learning, pretrained audio embeddings, model evaluation, and cross-model comparison.
 
-> **Dataset link to add before publishing:** [Public Kaggle dataset](https://www.kaggle.com/datasets/YOUR_KAGGLE_USERNAME/YOUR_DATASET_SLUG) — replace this placeholder with the exact URL of your dataset.
+> **Dataset link to add before publishing:** [Public Kaggle dataset](https://www.kaggle.com/datasets/mlfarhan/audio-classification) — replace this placeholder with the exact URL of your dataset.
 
 ## Results at a glance
 
